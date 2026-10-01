@@ -7,7 +7,9 @@ or which documents were retrieved -- useful both as a demo and as a way
 to sanity-check that answers are actually grounded in the tools, not
 hallucinated.
 
-Run: streamlit run app/streamlit_app.py
+Run locally: streamlit run app/streamlit_app.py
+Deployed on Streamlit Community Cloud: same command, GROQ_API_KEY comes
+from the app's Secrets settings instead of a local .env file.
 """
 import sys
 from pathlib import Path
@@ -17,9 +19,27 @@ from pathlib import Path
 # of which directory the command is run from.
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
+import os
+
 import streamlit as st
 from groq import RateLimitError
 
+# Streamlit Community Cloud secrets are only exposed via st.secrets, not
+# automatically copied into os.environ -- but the rest of this project
+# (orchestrator.py's Groq() client, python-dotenv locally) reads the key
+# via os.environ. Bridging it here means no other file needs to know or
+# care whether it's running locally (.env) or on Community Cloud
+# (Secrets UI). Wrapped in try/except because st.secrets raises an error
+# (not just an empty dict) when no secrets.toml exists at all -- which is
+# the normal case for local development, where the key comes from .env
+# instead.
+try:
+    if "GROQ_API_KEY" in st.secrets:
+        os.environ["GROQ_API_KEY"] = st.secrets["GROQ_API_KEY"]
+except Exception:
+    pass
+
+from src.config import DUCKDB_PATH
 from src.agent.orchestrator import ask_agent
 
 st.set_page_config(page_title="RBI Macro Assistant", page_icon="🇮🇳", layout="wide")
@@ -38,6 +58,34 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
+
+
+@st.cache_resource(show_spinner=False)
+def ensure_data_ready():
+    """
+    Builds the DuckDB file and vector store on first run if they don't
+    already exist. The Docker image builds these at image-build time, but
+    Streamlit Community Cloud just pip-installs requirements.txt and runs
+    this script directly -- it never runs the Dockerfile -- so without
+    this check, a Community Cloud deploy would start with no data at all.
+
+    @st.cache_resource makes this run at most once per app session
+    (across reruns from user interaction), not on every single rerun.
+    """
+    if not DUCKDB_PATH.exists():
+        from src.sql_tool.db_loader import load_csv_to_duckdb
+        load_csv_to_duckdb()
+
+    from src.rag_tool.vectorstore import get_collection
+    if get_collection().count() == 0:
+        from scripts.ingest_pdfs import ingest_all_pdfs
+        ingest_all_pdfs()
+
+    return True
+
+
+with st.spinner("Setting up the dataset and document index (first run only)... ⏳"):
+    ensure_data_ready()
 
 # Custom header banner -- a plain CSS/HTML gradient in the Indian tricolor
 # rather than a hotlinked photo. Hotlinked images from random sites carry
