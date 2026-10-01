@@ -1,0 +1,11 @@
+duckdb
+pandas
+groq
+python-dotenv
+sentence-transformers
+chromadb
+rank-bm25
+pymupdf
+fastapi
+uvicorn
+streamlit

@@ -1,0 +1,322 @@
+[
+  {
+    "id": "q001",
+    "question": "What was the USD/INR exchange rate in December 2021?",
+    "column": "usd_inr",
+    "unit": "INR/USD",
+    "date": "2021-12-31",
+    "expected_value": 75.37
+  },
+  {
+    "id": "q002",
+    "question": "What was the USD/INR exchange rate in August 2000?",
+    "column": "usd_inr",
+    "unit": "INR/USD",
+    "date": "2000-08-31",
+    "expected_value": 45.68
+  },
+  {
+    "id": "q003",
+    "question": "What was the USD/INR exchange rate in September 1992?",
+    "column": "usd_inr",
+    "unit": "INR/USD",
+    "date": "1992-09-30",
+    "expected_value": 25.89
+  },
+  {
+    "id": "q004",
+    "question": "What was the USD/INR exchange rate in December 2008?",
+    "column": "usd_inr",
+    "unit": "INR/USD",
+    "date": "2008-12-31",
+    "expected_value": 48.63
+  },
+  {
+    "id": "q005",
+    "question": "What were India's forex reserves in December 2024?",
+    "column": "reserves_bn",
+    "unit": "billion USD",
+    "date": "2024-12-31",
+    "expected_value": 635.7
+  },
+  {
+    "id": "q006",
+    "question": "What were India's forex reserves in September 1992?",
+    "column": "reserves_bn",
+    "unit": "billion USD",
+    "date": "1992-09-30",
+    "expected_value": 9.32
+  },
+  {
+    "id": "q007",
+    "question": "What were India's forex reserves in September 1998?",
+    "column": "reserves_bn",
+    "unit": "billion USD",
+    "date": "1998-09-30",
+    "expected_value": 29.18
+  },
+  {
+    "id": "q008",
+    "question": "What were India's forex reserves in June 2009?",
+    "column": "reserves_bn",
+    "unit": "billion USD",
+    "date": "2009-06-30",
+    "expected_value": 265.14
+  },
+  {
+    "id": "q009",
+    "question": "What was the CPI inflation rate (YoY) in December 2019?",
+    "column": "cpi_inflation_yoy",
+    "unit": "%",
+    "date": "2019-12-31",
+    "expected_value": 7.35
+  },
+  {
+    "id": "q010",
+    "question": "What was the CPI inflation rate (YoY) in November 2019?",
+    "column": "cpi_inflation_yoy",
+    "unit": "%",
+    "date": "2019-11-30",
+    "expected_value": 5.54
+  },
+  {
+    "id": "q011",
+    "question": "What was the CPI inflation rate (YoY) in May 2015?",
+    "column": "cpi_inflation_yoy",
+    "unit": "%",
+    "date": "2015-05-31",
+    "expected_value": 5.01
+  },
+  {
+    "id": "q012",
+    "question": "What was the CPI inflation rate (YoY) in September 2021?",
+    "column": "cpi_inflation_yoy",
+    "unit": "%",
+    "date": "2021-09-30",
+    "expected_value": 4.35
+  },
+  {
+    "id": "q013",
+    "question": "What was the Brent crude oil price in April 2018?",
+    "column": "crude_brent_usd",
+    "unit": "USD/barrel",
+    "date": "2018-04-30",
+    "expected_value": 71.63
+  },
+  {
+    "id": "q014",
+    "question": "What was the Brent crude oil price in December 2000?",
+    "column": "crude_brent_usd",
+    "unit": "USD/barrel",
+    "date": "2000-12-31",
+    "expected_value": 25.13
+  },
+  {
+    "id": "q015",
+    "question": "What was the Brent crude oil price in April 1997?",
+    "column": "crude_brent_usd",
+    "unit": "USD/barrel",
+    "date": "1997-04-30",
+    "expected_value": 17.47
+  },
+  {
+    "id": "q016",
+    "question": "What was the Brent crude oil price in April 2000?",
+    "column": "crude_brent_usd",
+    "unit": "USD/barrel",
+    "date": "2000-04-30",
+    "expected_value": 22.54
+  },
+  {
+    "id": "q017",
+    "question": "What were India's exports in May 2002?",
+    "column": "exports_bn",
+    "unit": "billion USD",
+    "date": "2002-05-31",
+    "expected_value": 4.08
+  },
+  {
+    "id": "q018",
+    "question": "What were India's exports in November 1994?",
+    "column": "exports_bn",
+    "unit": "billion USD",
+    "date": "1994-11-30",
+    "expected_value": 2.076
+  },
+  {
+    "id": "q019",
+    "question": "What were India's exports in January 1999?",
+    "column": "exports_bn",
+    "unit": "billion USD",
+    "date": "1999-01-31",
+    "expected_value": 2.743
+  },
+  {
+    "id": "q020",
+    "question": "What were India's exports in December 2010?",
+    "column": "exports_bn",
+    "unit": "billion USD",
+    "date": "2010-12-31",
+    "expected_value": 23.3494
+  },
+  {
+    "id": "q021",
+    "question": "What were India's imports in February 2007?",
+    "column": "imports_bn",
+    "unit": "billion USD",
+    "date": "2007-02-28",
+    "expected_value": 14.4847
+  },
+  {
+    "id": "q022",
+    "question": "What were India's imports in April 1997?",
+    "column": "imports_bn",
+    "unit": "billion USD",
+    "date": "1997-04-30",
+    "expected_value": 3.18
+  },
+  {
+    "id": "q023",
+    "question": "What were India's imports in June 1995?",
+    "column": "imports_bn",
+    "unit": "billion USD",
+    "date": "1995-06-30",
+    "expected_value": 2.883
+  },
+  {
+    "id": "q024",
+    "question": "What were India's imports in June 1997?",
+    "column": "imports_bn",
+    "unit": "billion USD",
+    "date": "1997-06-30",
+    "expected_value": 3.347
+  },
+  {
+    "id": "q025",
+    "question": "What was the trade balance in November 2018?",
+    "column": "trade_balance_bn",
+    "unit": "billion USD",
+    "date": "2018-11-30",
+    "expected_value": -17.5836
+  },
+  {
+    "id": "q026",
+    "question": "What was the trade balance in May 2007?",
+    "column": "trade_balance_bn",
+    "unit": "billion USD",
+    "date": "2007-05-31",
+    "expected_value": -8.6938
+  },
+  {
+    "id": "q027",
+    "question": "What was the trade balance in September 2004?",
+    "column": "trade_balance_bn",
+    "unit": "billion USD",
+    "date": "2004-09-30",
+    "expected_value": -2.501
+  },
+  {
+    "id": "q028",
+    "question": "What was the trade balance in September 2006?",
+    "column": "trade_balance_bn",
+    "unit": "billion USD",
+    "date": "2006-09-30",
+    "expected_value": -6.5942
+  },
+  {
+    "id": "q029",
+    "question": "What was the net FII inflow in October 2014?",
+    "column": "fii_net_cr",
+    "unit": "INR crore",
+    "date": "2014-10-31",
+    "expected_value": -1682.87
+  },
+  {
+    "id": "q030",
+    "question": "What was the net FII inflow in June 2011?",
+    "column": "fii_net_cr",
+    "unit": "INR crore",
+    "date": "2011-06-30",
+    "expected_value": 2662.76
+  },
+  {
+    "id": "q031",
+    "question": "What was the net FII inflow in August 2015?",
+    "column": "fii_net_cr",
+    "unit": "INR crore",
+    "date": "2015-08-31",
+    "expected_value": -19772.07
+  },
+  {
+    "id": "q032",
+    "question": "What was the net FII inflow in August 2013?",
+    "column": "fii_net_cr",
+    "unit": "INR crore",
+    "date": "2013-08-31",
+    "expected_value": -7470.47
+  },
+  {
+    "id": "q033",
+    "question": "What was the gold price in May 2015?",
+    "column": "gold_inr_oz",
+    "unit": "INR/oz",
+    "date": "2015-05-31",
+    "expected_value": 84202.68
+  },
+  {
+    "id": "q034",
+    "question": "What was the gold price in March 2025?",
+    "column": "gold_inr_oz",
+    "unit": "INR/oz",
+    "date": "2025-03-31",
+    "expected_value": 270416.58
+  },
+  {
+    "id": "q035",
+    "question": "What was the gold price in October 2021?",
+    "column": "gold_inr_oz",
+    "unit": "INR/oz",
+    "date": "2021-10-31",
+    "expected_value": 146968.97
+  },
+  {
+    "id": "q036",
+    "question": "What was the gold price in November 2021?",
+    "column": "gold_inr_oz",
+    "unit": "INR/oz",
+    "date": "2021-11-30",
+    "expected_value": 149803.52
+  },
+  {
+    "id": "q037",
+    "question": "What was India's import cover in August 1996?",
+    "column": "import_cover_months",
+    "unit": "months",
+    "date": "1996-08-31",
+    "expected_value": 7.6257
+  },
+  {
+    "id": "q038",
+    "question": "What was India's import cover in November 2008?",
+    "column": "import_cover_months",
+    "unit": "months",
+    "date": "2008-11-30",
+    "expected_value": 9.2315
+  },
+  {
+    "id": "q039",
+    "question": "What was India's import cover in January 1994?",
+    "column": "import_cover_months",
+    "unit": "months",
+    "date": "1994-01-31",
+    "expected_value": 7.3457
+  },
+  {
+    "id": "q040",
+    "question": "What was India's import cover in June 2009?",
+    "column": "import_cover_months",
+    "unit": "months",
+    "date": "2009-06-30",
+    "expected_value": 12.7406
+  }
+]

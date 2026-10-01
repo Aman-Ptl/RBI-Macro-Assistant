@@ -1,0 +1,17 @@
+# Environment variables (API keys)
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated database/vector store files -- regenerate via:
+#   python -m src.sql_tool.db_loader
+#   python -m scripts.ingest_pdfs
+data/structured/macro.duckdb
+data/processed/chroma_db/
+
+# OS files
+.DS_Store
+Thumbs.db

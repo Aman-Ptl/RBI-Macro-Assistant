@@ -1,0 +1,329 @@
+{
+  "accuracy_pct": 97.5,
+  "tool_usage_rate_pct": 100.0,
+  "total_questions": 40,
+  "answered_so_far": 40,
+  "correct_count": 39,
+  "results": [
+    {
+      "id": "q001",
+      "question": "What was the USD/INR exchange rate in December 2021?",
+      "expected_value": 75.37,
+      "answer_text": "The USD/INR exchange rate for December\u202f2021 was **75.37\u202fINR per USD**.",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q002",
+      "question": "What was the USD/INR exchange rate in August 2000?",
+      "expected_value": 45.68,
+      "answer_text": "The USD/INR exchange rate at the end of August\u202f2000 was **45.68\u202fINR per USD**.",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q003",
+      "question": "What was the USD/INR exchange rate in September 1992?",
+      "expected_value": 25.89,
+      "answer_text": "The USD/INR exchange rate at the end of September\u202f1992 was **25.89\u202fINR per USD**.",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q004",
+      "question": "What was the USD/INR exchange rate in December 2008?",
+      "expected_value": 48.63,
+      "answer_text": "The USD/INR rate at the end of December\u202f2008 was **48.63 INR per USD**.",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q005",
+      "question": "What were India's forex reserves in December 2024?",
+      "expected_value": 635.7,
+      "answer_text": "India\u2019s foreign\u2011exchange reserves at the end of December\u202f2024 were **about\u202f\u20b9\u202f635.7\u202fbillion (US$\u202f635.7\u202fbn)**.",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q006",
+      "question": "What were India's forex reserves in September 1992?",
+      "expected_value": 9.32,
+      "answer_text": "India\u2019s foreign exchange reserves in September\u202f1992 were **\u20b99.32\u202fbillion**.",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q007",
+      "question": "What were India's forex reserves in September 1998?",
+      "expected_value": 29.18,
+      "answer_text": "India\u2019s foreign exchange reserves in September\u202f1998 were **\u20b929.18\u202fbillion** (US$\u202f\u2248\u202f29.2\u202fbn).",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q008",
+      "question": "What were India's forex reserves in June 2009?",
+      "expected_value": 265.14,
+      "answer_text": "India\u2019s foreign\u2011exchange reserves were **about\u202f265.1\u202fbillion USD** as of June\u202f30,\u202f2009.",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q009",
+      "question": "What was the CPI inflation rate (YoY) in December 2019?",
+      "expected_value": 7.35,
+      "answer_text": "CPI inflation (YoY) in December\u202f2019 was **7.35\u202f%**.",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q010",
+      "question": "What was the CPI inflation rate (YoY) in November 2019?",
+      "expected_value": 5.54,
+      "answer_text": "CPI inflation YoY in November\u202f2019 was **5.54\u202f%**.",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q011",
+      "question": "What was the CPI inflation rate (YoY) in May 2015?",
+      "expected_value": 5.01,
+      "answer_text": "The CPI inflation rate (YoY) in May\u202f2015 was **5.01\u202f%**.",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q012",
+      "question": "What was the CPI inflation rate (YoY) in September 2021?",
+      "expected_value": 4.35,
+      "answer_text": "The CPI inflation YoY in **September\u202f2021** was **4.35\u202f%**.",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q013",
+      "question": "What was the Brent crude oil price in April 2018?",
+      "expected_value": 71.63,
+      "answer_text": "Brent crude oil price in April\u202f2018: **71.63\u202fUSD**.",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q014",
+      "question": "What was the Brent crude oil price in December 2000?",
+      "expected_value": 25.13,
+      "answer_text": "The Brent crude oil price in December\u202f2000 was **$25.13\u202fUSD** per barrel.",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q015",
+      "question": "What was the Brent crude oil price in April 1997?",
+      "expected_value": 17.47,
+      "answer_text": "In April\u202f1997, the Brent crude oil price was **$17.47 per barrel**.",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q016",
+      "question": "What was the Brent crude oil price in April 2000?",
+      "expected_value": 22.54,
+      "answer_text": "The Brent crude price in April\u202f2000 was **$22.54 per barrel**.",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q017",
+      "question": "What were India's exports in May 2002?",
+      "expected_value": 4.08,
+      "answer_text": "India\u2019s exports in May\u202f2002 were **4.08\u202fbillion\u202fUSD**.",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q018",
+      "question": "What were India's exports in November 1994?",
+      "expected_value": 2.076,
+      "answer_text": "India\u2019s exports in November\u202f1994 were **about 2.076\u202fbillion USD**.",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q019",
+      "question": "What were India's exports in January 1999?",
+      "expected_value": 2.743,
+      "answer_text": "India\u2019s exports in January\u202f1999 were **\u20b92.743\u202fbillion USD**.",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q020",
+      "question": "What were India's exports in December 2010?",
+      "expected_value": 23.3494,
+      "answer_text": "India\u2019s exports in December\u202f2010 were **\u20b923.35\u202fbillion** (rounded to two decimals).",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q021",
+      "question": "What were India's imports in February 2007?",
+      "expected_value": 14.4847,
+      "answer_text": "India\u2019s imports in February\u202f2007 were **\u20b914.48\u202fbillion\u202fUSD** (month\u2011end value).",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q022",
+      "question": "What were India's imports in April 1997?",
+      "expected_value": 3.18,
+      "answer_text": "India\u2019s imports in April\u202f1997 were **about 3.18\u202fbillion USD** (3.18\u202fbn).",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q023",
+      "question": "What were India's imports in June 1995?",
+      "expected_value": 2.883,
+      "answer_text": "India\u2019s imports in June\u202f1995 were **US\u202f$2.883\u202fbillion**.",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q024",
+      "question": "What were India's imports in June 1997?",
+      "expected_value": 3.347,
+      "answer_text": "India\u2019s imports in June\u202f1997 were **US$\u202f3.347\u202fbillion** (in the macro\u2011data table, imports_bn is reported in billions of USD).",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q025",
+      "question": "What was the trade balance in November 2018?",
+      "expected_value": -17.5836,
+      "answer_text": "The trade balance for November\u202f2018 was **\u201117.58\u202fbillion\u202fUSD**.",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q026",
+      "question": "What was the trade balance in May 2007?",
+      "expected_value": -8.6938,
+      "answer_text": "The trade balance for May\u202f2007 was **\u20118.7\u202fbillion USD** (a trade deficit).",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q027",
+      "question": "What was the trade balance in September 2004?",
+      "expected_value": -2.501,
+      "answer_text": "The trade balance for September\u202f2004 was **\u20112.501\u202fbillion USD** (i.e., a trade deficit of about\u202f\u20b9\u202f2.5\u202fbillion).",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q028",
+      "question": "What was the trade balance in September 2006?",
+      "expected_value": -6.5942,
+      "answer_text": "In September\u202f2006, India\u2019s trade balance was **\u20116.59\u202fbillion USD** (a trade deficit of about\u202f\u20b9\u202f6.6\u202fbillion).",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q029",
+      "question": "What was the net FII inflow in October 2014?",
+      "expected_value": -1682.87,
+      "answer_text": "Net FII inflow in **October\u202f2014**: **\u20111,682.9\u202fbillion INR** (a net outflow).",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q030",
+      "question": "What was the net FII inflow in June 2011?",
+      "expected_value": 2662.76,
+      "answer_text": "Net FII inflow in June\u202f2011 was **\u20b92,662.76\u202fcrore** (per the macro_data table).",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q031",
+      "question": "What was the net FII inflow in August 2015?",
+      "expected_value": -19772.07,
+      "answer_text": "",
+      "used_tool": true,
+      "passed": false
+    },
+    {
+      "id": "q032",
+      "question": "What was the net FII inflow in August 2013?",
+      "expected_value": -7470.47,
+      "answer_text": "The net Foreign Institutional Investor (FII) flow for August\u202f2013 was **\u20117,470.47 crore\u202f\u20b9** \u2013 i.e. a net outflow of about 7.47\u202ftrillion rupees.",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q033",
+      "question": "What was the gold price in May 2015?",
+      "expected_value": 84202.68,
+      "answer_text": "The gold price in May\u202f2015 was **\u20b984,202.68 per ounce**.",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q034",
+      "question": "What was the gold price in March 2025?",
+      "expected_value": 270416.58,
+      "answer_text": "Gold price in March\u202f2025: **\u20b9270,416.58 per ounce**.",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q035",
+      "question": "What was the gold price in October 2021?",
+      "expected_value": 146968.97,
+      "answer_text": "Gold price in October\u202f2021: **\u20b9146,968.97 per ounce** (per the monthly macro data).",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q036",
+      "question": "What was the gold price in November 2021?",
+      "expected_value": 149803.52,
+      "answer_text": "The average gold price in November\u202f2021 was **\u20b9149,803.52 per ounce** (\u20b9149,803.52\u202f/\u202foz).",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q037",
+      "question": "What was India's import cover in August 1996?",
+      "expected_value": 7.6257,
+      "answer_text": "India\u2019s import cover in August\u202f1996 was **about\u202f7.63 months** (i.e., the value of imports could be covered by domestic savings for roughly 7.6 months).",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q038",
+      "question": "What was India's import cover in November 2008?",
+      "expected_value": 9.2315,
+      "answer_text": "India\u2019s import cover in November\u202f2008 was **about 9.23 months** of imports.",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q039",
+      "question": "What was India's import cover in January 1994?",
+      "expected_value": 7.3457,
+      "answer_text": "India\u2019s import cover in January\u202f1994 was **7.35\u202fmonths** (i.e. the value of imports could be covered by domestic consumption for about seven and a half months).",
+      "used_tool": true,
+      "passed": true
+    },
+    {
+      "id": "q040",
+      "question": "What was India's import cover in June 2009?",
+      "expected_value": 12.7406,
+      "answer_text": "India\u2019s import\u2011cover in **June\u202f2009** was **12.74 months**. This means the current\u2011account reserves could cover roughly 12.7 months of the country\u2019s imports at that time.",
+      "used_tool": true,
+      "passed": true
+    }
+  ]
+}
