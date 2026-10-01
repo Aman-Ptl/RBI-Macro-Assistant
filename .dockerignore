@@ -1,0 +1,22 @@
+# Secrets -- never bake into the image
+.env
+
+# Version control
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+
+# Generated files -- rebuilt fresh inside the image during the build
+# (see Dockerfile), so there's no need to copy any stale local copies in
+data/structured/macro.duckdb
+data/processed/chroma_db/
+
+# Not needed inside the container
+evaluation/results/
+.vscode/
+.DS_Store
