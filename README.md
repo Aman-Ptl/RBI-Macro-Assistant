@@ -141,6 +141,14 @@ python -m src.agent.orchestrator "What was the USD/INR rate in March 2013?"
 ```bash
 streamlit run app/streamlit_app.py
 ```
+### Or run with Docker
+
+```bash
+docker build -t rbi-macro-assistant .
+docker run -p 8501:8501 --env-file .env rbi-macro-assistant
+```
+
+This builds the dataset and vector store into the image at build time, so the app is ready to use the moment the container starts — no manual setup steps needed.
 
 ## Known limitations
 
