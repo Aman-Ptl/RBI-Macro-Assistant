@@ -1,0 +1,417 @@
+{
+  "chunk_hit_rate_pct": 30.77,
+  "doc_hit_rate_pct": 100.0,
+  "mrr": 0.846,
+  "top_k": 5,
+  "total_questions": 26,
+  "results": [
+    {
+      "id": "r001",
+      "question": "What does the July 2026 Balance of Payments say in its 'Preamble' section?",
+      "expected_source_file": "bop_2026-07.pdf",
+      "expected_section": "Preamble",
+      "retrieved_sections": [
+        "Preamble",
+        "Developments in India\u2019s Balance of Payments for the Month of May 2026",
+        "Preamble",
+        "RBI Bulletin \u2013 July 2026"
+      ],
+      "chunk_hit": true,
+      "doc_hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "r002",
+      "question": "What does the July 2026 Balance of Payments say in its 'Developments in India\u2019s Balance of Payments for the Month of May 2026' section?",
+      "expected_source_file": "bop_2026-07.pdf",
+      "expected_section": "Developments in India\u2019s Balance of Payments for the Month of May 2026",
+      "retrieved_sections": [
+        "Developments in India\u2019s Balance of Payments for the Month of May 2026",
+        "RBI Bulletin \u2013 July 2026",
+        "Preamble",
+        "Preamble"
+      ],
+      "chunk_hit": true,
+      "doc_hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "r003",
+      "question": "What does the March 2026 RBI Bulletin say in its '2.1\t Scheduled Commercial Banks' section?",
+      "expected_source_file": "bulletin_2026-03.pdf",
+      "expected_section": "2.1\t Scheduled Commercial Banks",
+      "retrieved_sections": [
+        "0.0716*",
+        "Preamble",
+        "Preamble",
+        "4.1\t Term Money Borrowings",
+        "Preamble"
+      ],
+      "chunk_hit": false,
+      "doc_hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "r004",
+      "question": "What does the March 2026 RBI Bulletin say in its '0.0716*' section?",
+      "expected_source_file": "bulletin_2026-03.pdf",
+      "expected_section": "0.0716*",
+      "retrieved_sections": [
+        "Preamble",
+        "(b) \t Non-Bank Deposits",
+        "0.0716*",
+        "Preamble",
+        "2.2\t Money Stock Measures"
+      ],
+      "chunk_hit": false,
+      "doc_hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "r005",
+      "question": "What does the March 2026 RBI Bulletin say in its '0.0716*' section?",
+      "expected_source_file": "bulletin_2026-03.pdf",
+      "expected_section": "0.0716*",
+      "retrieved_sections": [
+        "Preamble",
+        "(b) \t Non-Bank Deposits",
+        "0.0716*",
+        "Preamble",
+        "2.2\t Money Stock Measures"
+      ],
+      "chunk_hit": false,
+      "doc_hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "r006",
+      "question": "What does the May 2026 RBI Bulletin say in its 'Preamble' section?",
+      "expected_source_file": "bulletin_2026-05.pdf",
+      "expected_section": "Preamble",
+      "retrieved_sections": [
+        "Preamble"
+      ],
+      "chunk_hit": true,
+      "doc_hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "r007",
+      "question": "What does the June 2026 RBI Bulletin say in its 'Preamble' section?",
+      "expected_source_file": "bulletin_2026-06.pdf",
+      "expected_section": "Preamble",
+      "retrieved_sections": [
+        "Preamble",
+        "Preamble",
+        "Preamble",
+        "(b) \t Non-Bank Deposits",
+        "Preamble"
+      ],
+      "chunk_hit": false,
+      "doc_hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "r008",
+      "question": "What does the June 2026 RBI Bulletin say in its '(b) \t Non-Bank Deposits' section?",
+      "expected_source_file": "bulletin_2026-06.pdf",
+      "expected_section": "(b) \t Non-Bank Deposits",
+      "retrieved_sections": [
+        "Preamble",
+        "Preamble",
+        "Preamble",
+        "(b) \t Non-Bank Deposits",
+        "4.1\t Term Money Borrowings"
+      ],
+      "chunk_hit": false,
+      "doc_hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "r009",
+      "question": "What does the June 2026 RBI Bulletin say in its '3.5.1 \tMonetary gold' section?",
+      "expected_source_file": "bulletin_2026-06.pdf",
+      "expected_section": "3.5.1 \tMonetary gold",
+      "retrieved_sections": [
+        "Preamble",
+        "Preamble",
+        "(b) \t Non-Bank Deposits",
+        "Preamble",
+        "Preamble"
+      ],
+      "chunk_hit": false,
+      "doc_hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "r010",
+      "question": "What does the July 2026 RBI Bulletin say in its 'Preamble' section?",
+      "expected_source_file": "bulletin_2026-07.pdf",
+      "expected_section": "Preamble",
+      "retrieved_sections": [
+        "RBI Bulletin \u2013 July 2026",
+        "Preamble",
+        "Preamble",
+        "Developments in India\u2019s Balance of Payments for the Month of May 2026"
+      ],
+      "chunk_hit": true,
+      "doc_hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "r011",
+      "question": "What does the July 2026 RBI Bulletin say in its 'RBI Bulletin \u2013 July 2026' section?",
+      "expected_source_file": "bulletin_2026-07.pdf",
+      "expected_section": "RBI Bulletin \u2013 July 2026",
+      "retrieved_sections": [
+        "RBI Bulletin \u2013 July 2026",
+        "Preamble",
+        "Preamble",
+        "Developments in India\u2019s Balance of Payments for the Month of May 2026"
+      ],
+      "chunk_hit": true,
+      "doc_hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "r012",
+      "question": "What did the MPC decide at its August 2026 meeting?",
+      "expected_source_file": "mpc_minutes_2026-08-19.pdf",
+      "expected_section": "Resolution",
+      "retrieved_sections": [
+        "Resolution",
+        "Preamble",
+        "Statement by Dr. Nagesh Kumar",
+        "Statement by Prof. Ram Singh",
+        "Statement by Shri Saugata Bhattacharya"
+      ],
+      "chunk_hit": true,
+      "doc_hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "r013",
+      "question": "What does the August 2026 MPC Minutes say in its 'Preamble' section?",
+      "expected_source_file": "mpc_minutes_2026-08-19.pdf",
+      "expected_section": "Preamble",
+      "retrieved_sections": [
+        "Preamble",
+        "Resolution",
+        "Statement by Dr. Nagesh Kumar",
+        "Statement by Shri Sanjay Malhotra",
+        "Statement by Dr. Poonam Gupta"
+      ],
+      "chunk_hit": true,
+      "doc_hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "r014",
+      "question": "What does the August 2026 MPC Minutes say in its 'Global Outlook' section?",
+      "expected_source_file": "mpc_minutes_2026-08-19.pdf",
+      "expected_section": "Global Outlook",
+      "retrieved_sections": [
+        "Preamble",
+        "Resolution",
+        "Statement by Dr. Nagesh Kumar",
+        "Statement by Shri Indranil Bhattacharyya",
+        "Statement by Shri Saugata Bhattacharya"
+      ],
+      "chunk_hit": false,
+      "doc_hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "r015",
+      "question": "What does the 2025 Monetary Policy Report say in its 'motor vehicle & tractor drivers, sweeping/cleaning workers, and other' section?",
+      "expected_source_file": "mpr_2025.pdf",
+      "expected_section": "motor vehicle & tractor drivers, sweeping/cleaning workers, and other",
+      "retrieved_sections": [
+        "Preamble",
+        "lower US labour market data",
+        "Preamble",
+        "Preamble",
+        "Preamble"
+      ],
+      "chunk_hit": false,
+      "doc_hit": true,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "id": "r016",
+      "question": "What does the 2025 Monetary Policy Report say in its 'motor vehicle & tractor drivers, sweeping/cleaning workers, and other' section?",
+      "expected_source_file": "mpr_2025.pdf",
+      "expected_section": "motor vehicle & tractor drivers, sweeping/cleaning workers, and other",
+      "retrieved_sections": [
+        "Preamble",
+        "lower US labour market data",
+        "Preamble",
+        "Preamble",
+        "Preamble"
+      ],
+      "chunk_hit": false,
+      "doc_hit": true,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "id": "r017",
+      "question": "What does the 2025 Monetary Policy Report say in its 'lower US labour market data' section?",
+      "expected_source_file": "mpr_2025.pdf",
+      "expected_section": "lower US labour market data",
+      "retrieved_sections": [
+        "lower US labour market data",
+        "lower US labour market data",
+        "Preamble",
+        "lower US labour market data",
+        "Preamble"
+      ],
+      "chunk_hit": false,
+      "doc_hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "r018",
+      "question": "What does the April 2026 State of the Economy say in its 'Preamble' section?",
+      "expected_source_file": "soe-2026_04.pdf",
+      "expected_section": "Preamble",
+      "retrieved_sections": [
+        "Preamble",
+        "Preamble",
+        "Preamble",
+        "Preamble",
+        "Preamble"
+      ],
+      "chunk_hit": false,
+      "doc_hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "r019",
+      "question": "What does the April 2026 State of the Economy say in its 'Preamble' section?",
+      "expected_source_file": "soe-2026_04.pdf",
+      "expected_section": "Preamble",
+      "retrieved_sections": [
+        "Preamble",
+        "Preamble",
+        "Preamble",
+        "Preamble",
+        "Preamble"
+      ],
+      "chunk_hit": true,
+      "doc_hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "r020",
+      "question": "What does the April 2026 State of the Economy say in its 'Preamble' section?",
+      "expected_source_file": "soe-2026_04.pdf",
+      "expected_section": "Preamble",
+      "retrieved_sections": [
+        "Preamble",
+        "Preamble",
+        "Preamble",
+        "Preamble",
+        "Preamble"
+      ],
+      "chunk_hit": false,
+      "doc_hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "r021",
+      "question": "What does the June 2026 State of the Economy say in its 'Preamble' section?",
+      "expected_source_file": "soe_2026-06.pdf",
+      "expected_section": "Preamble",
+      "retrieved_sections": [
+        "Preamble",
+        "Preamble",
+        "Preamble",
+        "Preamble",
+        "Preamble"
+      ],
+      "chunk_hit": false,
+      "doc_hit": true,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "id": "r022",
+      "question": "What does the June 2026 State of the Economy say in its 'Preamble' section?",
+      "expected_source_file": "soe_2026-06.pdf",
+      "expected_section": "Preamble",
+      "retrieved_sections": [
+        "Preamble",
+        "Preamble",
+        "Preamble",
+        "Preamble",
+        "Preamble"
+      ],
+      "chunk_hit": false,
+      "doc_hit": true,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "id": "r023",
+      "question": "What does the June 2026 State of the Economy say in its 'Preamble' section?",
+      "expected_source_file": "soe_2026-06.pdf",
+      "expected_section": "Preamble",
+      "retrieved_sections": [
+        "Preamble",
+        "Preamble",
+        "Preamble",
+        "Preamble",
+        "Preamble"
+      ],
+      "chunk_hit": false,
+      "doc_hit": true,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "id": "r024",
+      "question": "What does the March 2026 State of the Economy say in its 'Preamble' section?",
+      "expected_source_file": "soe_2026_03.pdf",
+      "expected_section": "Preamble",
+      "retrieved_sections": [
+        "0.0716*",
+        "Preamble",
+        "0.0716*",
+        "0.0716*",
+        "0.0716*"
+      ],
+      "chunk_hit": false,
+      "doc_hit": true,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "id": "r025",
+      "question": "What does the March 2026 State of the Economy say in its 'Preamble' section?",
+      "expected_source_file": "soe_2026_03.pdf",
+      "expected_section": "Preamble",
+      "retrieved_sections": [
+        "0.0716*",
+        "Preamble",
+        "0.0716*",
+        "0.0716*",
+        "0.0716*"
+      ],
+      "chunk_hit": false,
+      "doc_hit": true,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "id": "r026",
+      "question": "What does the March 2026 State of the Economy say in its 'Preamble' section?",
+      "expected_source_file": "soe_2026_03.pdf",
+      "expected_section": "Preamble",
+      "retrieved_sections": [
+        "0.0716*",
+        "Preamble",
+        "0.0716*",
+        "0.0716*",
+        "0.0716*"
+      ],
+      "chunk_hit": false,
+      "doc_hit": true,
+      "reciprocal_rank": 0.5
+    }
+  ]
+}

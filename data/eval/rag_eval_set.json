@@ -1,0 +1,184 @@
+[
+  {
+    "id": "r001",
+    "question": "What does the July 2026 Balance of Payments say in its 'Preamble' section?",
+    "expected_chunk_id": "bop_2026-07.pdf::chunk0",
+    "expected_source_file": "bop_2026-07.pdf",
+    "expected_section": "Preamble"
+  },
+  {
+    "id": "r002",
+    "question": "What does the July 2026 Balance of Payments say in its 'Developments in India\u2019s Balance of Payments for the Month of May 2026' section?",
+    "expected_chunk_id": "bop_2026-07.pdf::chunk1",
+    "expected_source_file": "bop_2026-07.pdf",
+    "expected_section": "Developments in India\u2019s Balance of Payments for the Month of May 2026"
+  },
+  {
+    "id": "r003",
+    "question": "What does the March 2026 RBI Bulletin say in its '2.1\t Scheduled Commercial Banks' section?",
+    "expected_chunk_id": "bulletin_2026-03.pdf::chunk70",
+    "expected_source_file": "bulletin_2026-03.pdf",
+    "expected_section": "2.1\t Scheduled Commercial Banks"
+  },
+  {
+    "id": "r004",
+    "question": "What does the March 2026 RBI Bulletin say in its '0.0716*' section?",
+    "expected_chunk_id": "bulletin_2026-03.pdf::chunk62",
+    "expected_source_file": "bulletin_2026-03.pdf",
+    "expected_section": "0.0716*"
+  },
+  {
+    "id": "r005",
+    "question": "What does the March 2026 RBI Bulletin say in its '0.0716*' section?",
+    "expected_chunk_id": "bulletin_2026-03.pdf::chunk57",
+    "expected_source_file": "bulletin_2026-03.pdf",
+    "expected_section": "0.0716*"
+  },
+  {
+    "id": "r006",
+    "question": "What does the May 2026 RBI Bulletin say in its 'Preamble' section?",
+    "expected_chunk_id": "bulletin_2026-05.pdf::chunk0",
+    "expected_source_file": "bulletin_2026-05.pdf",
+    "expected_section": "Preamble"
+  },
+  {
+    "id": "r007",
+    "question": "What does the June 2026 RBI Bulletin say in its 'Preamble' section?",
+    "expected_chunk_id": "bulletin_2026-06.pdf::chunk26",
+    "expected_source_file": "bulletin_2026-06.pdf",
+    "expected_section": "Preamble"
+  },
+  {
+    "id": "r008",
+    "question": "What does the June 2026 RBI Bulletin say in its '(b) \t Non-Bank Deposits' section?",
+    "expected_chunk_id": "bulletin_2026-06.pdf::chunk173",
+    "expected_source_file": "bulletin_2026-06.pdf",
+    "expected_section": "(b) \t Non-Bank Deposits"
+  },
+  {
+    "id": "r009",
+    "question": "What does the June 2026 RBI Bulletin say in its '3.5.1 \tMonetary gold' section?",
+    "expected_chunk_id": "bulletin_2026-06.pdf::chunk139",
+    "expected_source_file": "bulletin_2026-06.pdf",
+    "expected_section": "3.5.1 \tMonetary gold"
+  },
+  {
+    "id": "r010",
+    "question": "What does the July 2026 RBI Bulletin say in its 'Preamble' section?",
+    "expected_chunk_id": "bulletin_2026-07.pdf::chunk0",
+    "expected_source_file": "bulletin_2026-07.pdf",
+    "expected_section": "Preamble"
+  },
+  {
+    "id": "r011",
+    "question": "What does the July 2026 RBI Bulletin say in its 'RBI Bulletin \u2013 July 2026' section?",
+    "expected_chunk_id": "bulletin_2026-07.pdf::chunk1",
+    "expected_source_file": "bulletin_2026-07.pdf",
+    "expected_section": "RBI Bulletin \u2013 July 2026"
+  },
+  {
+    "id": "r012",
+    "question": "What did the MPC decide at its August 2026 meeting?",
+    "expected_chunk_id": "mpc_minutes_2026-08-19.pdf::chunk1",
+    "expected_source_file": "mpc_minutes_2026-08-19.pdf",
+    "expected_section": "Resolution"
+  },
+  {
+    "id": "r013",
+    "question": "What does the August 2026 MPC Minutes say in its 'Preamble' section?",
+    "expected_chunk_id": "mpc_minutes_2026-08-19.pdf::chunk0",
+    "expected_source_file": "mpc_minutes_2026-08-19.pdf",
+    "expected_section": "Preamble"
+  },
+  {
+    "id": "r014",
+    "question": "What does the August 2026 MPC Minutes say in its 'Global Outlook' section?",
+    "expected_chunk_id": "mpc_minutes_2026-08-19.pdf::chunk2",
+    "expected_source_file": "mpc_minutes_2026-08-19.pdf",
+    "expected_section": "Global Outlook"
+  },
+  {
+    "id": "r015",
+    "question": "What does the 2025 Monetary Policy Report say in its 'motor vehicle & tractor drivers, sweeping/cleaning workers, and other' section?",
+    "expected_chunk_id": "mpr_2025.pdf::chunk55",
+    "expected_source_file": "mpr_2025.pdf",
+    "expected_section": "motor vehicle & tractor drivers, sweeping/cleaning workers, and other"
+  },
+  {
+    "id": "r016",
+    "question": "What does the 2025 Monetary Policy Report say in its 'motor vehicle & tractor drivers, sweeping/cleaning workers, and other' section?",
+    "expected_chunk_id": "mpr_2025.pdf::chunk59",
+    "expected_source_file": "mpr_2025.pdf",
+    "expected_section": "motor vehicle & tractor drivers, sweeping/cleaning workers, and other"
+  },
+  {
+    "id": "r017",
+    "question": "What does the 2025 Monetary Policy Report say in its 'lower US labour market data' section?",
+    "expected_chunk_id": "mpr_2025.pdf::chunk129",
+    "expected_source_file": "mpr_2025.pdf",
+    "expected_section": "lower US labour market data"
+  },
+  {
+    "id": "r018",
+    "question": "What does the April 2026 State of the Economy say in its 'Preamble' section?",
+    "expected_chunk_id": "soe-2026_04.pdf::chunk38",
+    "expected_source_file": "soe-2026_04.pdf",
+    "expected_section": "Preamble"
+  },
+  {
+    "id": "r019",
+    "question": "What does the April 2026 State of the Economy say in its 'Preamble' section?",
+    "expected_chunk_id": "soe-2026_04.pdf::chunk1",
+    "expected_source_file": "soe-2026_04.pdf",
+    "expected_section": "Preamble"
+  },
+  {
+    "id": "r020",
+    "question": "What does the April 2026 State of the Economy say in its 'Preamble' section?",
+    "expected_chunk_id": "soe-2026_04.pdf::chunk35",
+    "expected_source_file": "soe-2026_04.pdf",
+    "expected_section": "Preamble"
+  },
+  {
+    "id": "r021",
+    "question": "What does the June 2026 State of the Economy say in its 'Preamble' section?",
+    "expected_chunk_id": "soe_2026-06.pdf::chunk12",
+    "expected_source_file": "soe_2026-06.pdf",
+    "expected_section": "Preamble"
+  },
+  {
+    "id": "r022",
+    "question": "What does the June 2026 State of the Economy say in its 'Preamble' section?",
+    "expected_chunk_id": "soe_2026-06.pdf::chunk45",
+    "expected_source_file": "soe_2026-06.pdf",
+    "expected_section": "Preamble"
+  },
+  {
+    "id": "r023",
+    "question": "What does the June 2026 State of the Economy say in its 'Preamble' section?",
+    "expected_chunk_id": "soe_2026-06.pdf::chunk41",
+    "expected_source_file": "soe_2026-06.pdf",
+    "expected_section": "Preamble"
+  },
+  {
+    "id": "r024",
+    "question": "What does the March 2026 State of the Economy say in its 'Preamble' section?",
+    "expected_chunk_id": "soe_2026_03.pdf::chunk34",
+    "expected_source_file": "soe_2026_03.pdf",
+    "expected_section": "Preamble"
+  },
+  {
+    "id": "r025",
+    "question": "What does the March 2026 State of the Economy say in its 'Preamble' section?",
+    "expected_chunk_id": "soe_2026_03.pdf::chunk26",
+    "expected_source_file": "soe_2026_03.pdf",
+    "expected_section": "Preamble"
+  },
+  {
+    "id": "r026",
+    "question": "What does the March 2026 State of the Economy say in its 'Preamble' section?",
+    "expected_chunk_id": "soe_2026_03.pdf::chunk14",
+    "expected_source_file": "soe_2026_03.pdf",
+    "expected_section": "Preamble"
+  }
+]
