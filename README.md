@@ -62,6 +62,13 @@ Every number comes from a live SQL query against the dataset; every "why" claim 
 | Accuracy | 40/40 (100%) |
 | Tool-grounding rate | 100% (zero hallucinated numbers) |
 
+**RAG Retrieval** — 26 auto-generated questions sampled from the real document corpus:
+
+| Metric | Result |
+|---|---|
+| Document hit-rate@5 | 26/26 (100%) |
+| MRR (document-level) | 0.846 |
+
 ## Tech stack
 
 | Layer | Tool |
