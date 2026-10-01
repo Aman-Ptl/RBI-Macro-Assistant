@@ -4,6 +4,8 @@ A tool-calling AI agent that answers questions about the Indian economy by combi
 
 ![RBI Macro Assistant UI](assets/Screenshot.png)
 
+🔗 **[Live Demo](https://rbi-macro-assistant-2lmlkkhyxkofwmjgs4crr5.streamlit.app/)**
+
 ## Why this project
 
 Most "ask your data" demos either do text-to-SQL *or* RAG over documents, rarely both — and rarely with honest evaluation of how often the model actually gets it right. This project builds both, as two tools inside a single agent that decides which one (or both) a question needs, and measures accuracy with an auto-generated evaluation set rather than eyeballing a few examples.
